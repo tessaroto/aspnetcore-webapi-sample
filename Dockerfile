@@ -9,7 +9,6 @@ RUN dotnet restore
 COPY ./SampleWebApiAspNetCore ./
 
 RUN dotnet publish -c Release -o out
-COPY ./build_version ./out
 
 # Build runtime image
 FROM microsoft/dotnet:aspnetcore-runtime
