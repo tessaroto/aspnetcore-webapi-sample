@@ -1,6 +1,5 @@
 # ASP.NET Core WebApi Sample with HATEOAS, Versioning, Swagger & Docker 
 
-
 ###  This is a fork
 *This project was forked from  https://github.com/FabianGosebrink/ASPNETCore-WebAPI-Sample*
 Features added
