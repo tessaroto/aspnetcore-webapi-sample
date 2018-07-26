@@ -1,0 +1,13 @@
+version: "3.2"
+
+networks:
+  ci:
+    driver: overlay
+    attachable: true
+
+services:
+
+  api:
+    image: tessaroto/aspnetcore-webapi-sample:${API_TAG}
+    ports:
+      - "80:80"
